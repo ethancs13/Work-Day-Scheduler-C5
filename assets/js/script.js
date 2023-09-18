@@ -22,15 +22,16 @@ $(function () {
 
 
   $('.container-lg').children().each((index, element) => {
-    console.log("hour: " + dayjs().hour() + "    " + "index: " + (index-(-10)))
+    // console.log("hour: " + dayjs().hour() + "    " + "index: " + (index-(-10)))
+    // console.log(dayjs().hour())
 
-    if (dayjs().hour() > (index-(-10))) {
+    if (dayjs().hour() > (index-(-9))) {
 
       $(element).addClass('past')
       // future
       console.log("past")
       
-    } else if (dayjs().hour() < (index-(-10))) {
+    } else if (dayjs().hour() < (index-(-9))) {
 
       $(element).addClass('future')
       // past
