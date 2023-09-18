@@ -35,6 +35,7 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
+    <li><a href="#features">Features</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -48,9 +49,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Website Preview][product-screenshot]](Capture.PNG)
+![Website Preview](/assets/workDayScheduler.PNG)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `ethancs13`, `module-four-challenge`, `ethansroka@gmail.com`, `Simple Quiz`
+<!-- Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `ethancs13`, `challenge-5`, `ethansroka@gmail.com`, `Work-day Scheduler` -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -74,10 +75,19 @@ Run the index.html file in a browser window. Click the 'Start' button to start t
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Click Start when browser loads html file and js. Complete the questions by clicking on the answers. Enter your name to be put into a list of highscores.
+ - Add events using the time-blocks by clicking inside and typing.
+ - Click the save button on the right side of the block to save your event.
+ - When you are done, feel free to close the window. Your information will be stored there for later use.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- FEATURES -->
+## Features
+
+ - Current time and date will be displayed at the top of the page.
+ - Time-blocks color coded based on current, future, and past events.
+
+ <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 ## License
@@ -101,7 +111,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 Ethan Sroka - ethansroka@gmail.com
 
-Project Link: [https://github.com/ethancs13/module-four-challenge](https://github.com/ethancs13/module-four-challenge)
+Project Link: [https://github.com/ethancs13/challenge-5](https://github.com/ethancs13/challenge-5)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -110,9 +120,7 @@ Project Link: [https://github.com/ethancs13/module-four-challenge](https://githu
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* Boot Camp: [https://bootcamp.du.edu/coding](https://bootcamp.du.edu/coding)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
