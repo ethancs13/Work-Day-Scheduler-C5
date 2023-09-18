@@ -1,99 +1,123 @@
-# 05 Third-Party APIs: Work Day Scheduler
+<a name="readme-top" id="readme-top"></a>
 
-## Your Task
 
-Create a simple calendar application that allows a user to save events for each hour of a typical working day (9am&ndash;5pm) by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
 
-You'll need to use the [Day.js](https://day.js.org/en/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Day.js in the browser.
+<!-- IMAGE -->
+<br />
+<div align="center">
 
-## User Story
+<h3 align="center">Welcome to my Work Day Scheduler Project</h3>
 
-```md
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+  <p align="center">
+    - A work day planner with editable timeslots to organize your events -
+    <br />
+    <a href="https://github.com/ethancs13/challenge-5.git"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/ethancs13/challenge-5.git">View Demo</a>
+    ·
+    <a href="https://github.com/ethancs13/challenge-5/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/ethancs13/challenge-5/issues">Request Feature</a>
+  </p>
+</div>
 
-## Acceptance Criteria
 
-```md
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours of 9am&ndash;5pm
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
 
-The following animation demonstrates the application functionality:
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
-<!-- @TODO: create ticket to review/update image) -->
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
 
-## Grading Requirements
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-This Challenge is graded based on the following criteria:
+[![Website Preview][product-screenshot]](Capture.PNG)
 
-### Technical Acceptance Criteria: 40%
+Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `ethancs13`, `module-four-challenge`, `ethansroka@gmail.com`, `Simple Quiz`
 
-* Satisfies all of the above acceptance criteria plus the following:
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-  * Uses a date utility library to work with date and time
 
-### Deployment: 32%
 
-* Application deployed at live URL
+### Built With
 
-* Application loads with no errors
+* [![JQuery][JQuery.com]][JQuery-url]
 
-* Application GitHub URL submitted
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-* GitHub repo contains application code
 
-### Application Quality: 15%
 
-* Application user experience is intuitive and easy to navigate
+<!-- GETTING STARTED -->
+## Getting Started
 
-* Application user interface style is clean and polished
+Run the index.html file in a browser window. Click the 'Start' button to start the quiz.
 
-* Application resembles the mock-up functionality provided in the Challenge instructions
 
-### Repository Quality: 13%
 
-* Repository has a unique name
+<!-- USAGE EXAMPLES -->
+## Usage
 
-* Repository follows best practices for file structure and naming conventions
+Click Start when browser loads html file and js. Complete the questions by clicking on the answers. Enter your name to be put into a list of highscores.
 
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-* Repository contains multiple descriptive commit messages
 
-* Repository contains quality README file with description, screenshot, and link to deployed application
+<!-- LICENSE -->
+## License
 
-## Review
+The MIT License (MIT)
 
-You are required to submit the following for review:
+Copyright (c) 2015 Chris Kibble
 
-* The URL of the deployed application
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-* The URL of the GitHub repository, with a unique name and a README describing the project
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-- - -
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Ethan Sroka - ethansroka@gmail.com
+
+Project Link: [https://github.com/ethancs13/module-four-challenge](https://github.com/ethancs13/module-four-challenge)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+* []()
+* []()
+* []()
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+[product-screenshot]: Capture.PNG
+[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
+[JQuery-url]: https://jquery.com 
