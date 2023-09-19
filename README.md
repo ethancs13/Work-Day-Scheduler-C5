@@ -27,20 +27,9 @@ Inside your terminal simply clone the repository into a directory and cd into it
 * [![JavaScript][JavaScript.com]][JavaScript-url] - programming language
 * [![JQuery][JQuery.com]][JQuery-url] - JS framework
 
-### NPM Packages
-* [axios](https://www.npmjs.com/package/axios) - Promise based HTTP client
-* [bluebird](https://www.npmjs.com/package/bluebird) - Promise library
-* [body-parser](https://www.npmjs.com/package/body-parser) - Request parsing middleware
-* [cheerio](https://www.npmjs.com/package/cheerio) - Markup parser and manipulator
-* [Express](https://www.npmjs.com/package/express) - Routing framework
-* [mongoose](https://www.npmjs.com/package/mongoose) - NoSQL database
-* [morgan](https://www.npmjs.com/package/morgan) - Logging middleware
-* [morgan-body](https://www.npmjs.com/package/morgan-body) - Logging middleware
-* [react-router-dom](https://www.npmjs.com/package/react-router-dom) - Routing library for React with DOM bindings
-
 
 ## Acknowledgments 🙏
-A _bigly_ thank you to our instructor, Brian, and the TAs, Erik and Camille!!
+A _big_ thank you to my instructor Brian and TAs Erik, and Camille!!
 
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 

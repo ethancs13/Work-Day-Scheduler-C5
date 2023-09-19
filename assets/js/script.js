@@ -18,22 +18,14 @@ $(function () {
     // console.log(dayjs().hour())
 
     if (dayjs().hour() > (index-(-9))) {
-
       $(element).addClass('past')
       // future
-      console.log("past")
-      
     } else if (dayjs().hour() < (index-(-9))) {
-
       $(element).addClass('future')
       // past
-      console.log("future")
-
     } else {
-
       $(element).addClass('present')
       //  present
-      console.log("present")
     }
   })
 
@@ -60,4 +52,21 @@ function save_to_storage(e) { // save to storage function
     // console.log(el.children())
     localStorage.setItem(name, val) // store in localStorage
   }
+
+  var span = $('#confirm-message') // put the element into variable
+
+  // span.addClass('opacity')
+  span.text("Saved!") // set text to saved!
+
+  fade = () => { // fade function using opacity
+    span.show() // make element appear first
+    span.addClass('span') // add trasition class
+
+    setTimeout(()=>{
+      span.attr('class', '') // reset back to default
+      span.hide() // make element dissapear
+
+    }, 2000) // 2 seconds
+  }
+  fade() // call the function
 }
